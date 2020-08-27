@@ -347,7 +347,7 @@ const hiddenStyle = (gameOver: boolean) => ({
 
 const markedStyle = (gameOver: boolean) => ({
   ...baseStyle,
-  backgroundColor: gameOver ? "#ffaaff" : "#aaaaff",
+  backgroundColor: gameOver ? "#ff6666" : "#aaaaff",
   cursor: "pointer",
 })
 
